@@ -1,0 +1,30 @@
+{
+  "objectInfo" : {
+    "id" : "bSkrYm47XI5jQmhHoRylwr",
+    "name" : "fw_amulya",
+    "type" : "FWCONFIG",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "015ZHE29000000000034"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2025-12-23T11:10:42.493Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
+}

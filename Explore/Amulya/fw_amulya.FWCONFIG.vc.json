@@ -1,0 +1,391 @@
+{
+  "name" : "fw_amulya",
+  "lineSequential" : true,
+  "padBytes" : 0,
+  "skipRows" : 0,
+  "nullChar" : "*",
+  "nullCharType" : "ASCII",
+  "repeatNullChar" : false,
+  "stripTrailingBlank" : false,
+  "columns" : [
+    {
+      "name" : "COLUMN_0",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_1",
+      "nativeType" : "string",
+      "precision" : 15,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_2",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_3",
+      "nativeType" : "string",
+      "precision" : 32,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_4",
+      "nativeType" : "string",
+      "precision" : 5,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_5",
+      "nativeType" : "string",
+      "precision" : 70,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_6",
+      "nativeType" : "string",
+      "precision" : 70,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_7",
+      "nativeType" : "string",
+      "precision" : 19,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_8",
+      "nativeType" : "string",
+      "precision" : 30,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_9",
+      "nativeType" : "string",
+      "precision" : 19,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_10",
+      "nativeType" : "string",
+      "precision" : 30,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_11",
+      "nativeType" : "string",
+      "precision" : 19,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_12",
+      "nativeType" : "string",
+      "precision" : 30,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_13",
+      "nativeType" : "string",
+      "precision" : 1,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_14",
+      "nativeType" : "string",
+      "precision" : 19,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_15",
+      "nativeType" : "string",
+      "precision" : 30,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_16",
+      "nativeType" : "string",
+      "precision" : 1,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_17",
+      "nativeType" : "string",
+      "precision" : 19,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_18",
+      "nativeType" : "string",
+      "precision" : 30,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_19",
+      "nativeType" : "string",
+      "precision" : 1,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_20",
+      "nativeType" : "string",
+      "precision" : 1,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_21",
+      "nativeType" : "string",
+      "precision" : 40,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_22",
+      "nativeType" : "string",
+      "precision" : 40,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_23",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_24",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_25",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_26",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_27",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_28",
+      "nativeType" : "string",
+      "precision" : 19,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_29",
+      "nativeType" : "string",
+      "precision" : 254,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_30",
+      "nativeType" : "string",
+      "precision" : 50,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_31",
+      "nativeType" : "string",
+      "precision" : 50,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_32",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_33",
+      "nativeType" : "string",
+      "precision" : 254,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_34",
+      "nativeType" : "string",
+      "precision" : 50,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_35",
+      "nativeType" : "string",
+      "precision" : 50,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_36",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_37",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_38",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_39",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_40",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_41",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_42",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_43",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_44",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_45",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_46",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_47",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_48",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_49",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_50",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_51",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_52",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_53",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_54",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_55",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_56",
+      "nativeType" : "string",
+      "precision" : 254,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_57",
+      "nativeType" : "string",
+      "precision" : 50,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_58",
+      "nativeType" : "string",
+      "precision" : 50,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_59",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_60",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_61",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    },
+    {
+      "name" : "COLUMN_62",
+      "nativeType" : "string",
+      "precision" : 10,
+      "scale" : 0
+    }
+  ],
+  "vcsExportTime" : "2025-12-23 03:10:42 PST"
+}
