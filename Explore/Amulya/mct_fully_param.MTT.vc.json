@@ -1,0 +1,307 @@
+{
+  "name" : "mct_fully_param",
+  "runtimeEnvironmentId" : "@lOs3kVfySULeUZcBbsTU68",
+  "runtimeEnvironmentName" : "Amulya-Linux",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Oracle (P_OraConn1)",
+      "uiProperties" : {
+        "cnxtype" : "Oracle",
+        "connectionParameterized" : "true",
+        "paramName" : "P_OraConn1",
+        "paramLabel" : "Oracle",
+        "paramType-mapping" : "Connection",
+        "logcnx" : "P_OraConn1",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objlabel" : "Oracle",
+        "origobjlabel" : "Oracle",
+        "objectParameterized" : "true",
+        "objectParamName" : "IP_OracleObject12",
+        "objectParamType-mapping" : "DataObject",
+        "flags" : "SUPPORTS_MULTI_SCHEMA",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@9NpYgSVLB0rePcpNIQESI3",
+      "connectionName" : "TGT_ORA_AM",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "AMNAIKA/AMZ",
+          "label" : "AMZ",
+          "metadataUpdated" : false,
+          "dbSchema" : "AMNAIKA"
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "AMNAIKA/AMZ",
+            "label" : "AMZ",
+            "metadataUpdated" : false,
+            "dbSchema" : "AMNAIKA"
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionParameterName" : "P_OraConn1",
+        "objectParameterName" : "IP_OracleObject12",
+        "objectDefaultValue" : "AMZ",
+        "connectionRuntimeParameter" : true,
+        "objectRuntimeParameter" : true
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$src_ora$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Oracle (P_OraConn1)",
+      "uiProperties" : {
+        "cnxtype" : "Oracle",
+        "connectionParameterized" : "true",
+        "paramName" : "P_OraConn1",
+        "paramLabel" : "Oracle",
+        "paramType-mapping" : "Connection",
+        "logcnx" : "P_OraConn1",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objlabel" : "Oracle",
+        "origobjlabel" : "Oracle",
+        "objectParameterized" : "true",
+        "objectParamName" : "IP_OracleObject12",
+        "objectParamType-mapping" : "DataObject",
+        "flags" : "SUPPORTS_MULTI_SCHEMA",
+        "originalPath" : "src_ora"
+      },
+      "sourceConnectionId" : "@9NpYgSVLB0rePcpNIQESI3",
+      "connectionName" : "TGT_ORA_AM",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "CUSTOMER",
+          "label" : "CUSTOMER",
+          "metadataUpdated" : false
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "CUSTOMER",
+            "label" : "CUSTOMER",
+            "metadataUpdated" : false
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionParameterName" : "P_OraConn1",
+        "objectParameterName" : "IP_OracleObject12",
+        "objectDefaultValue" : "CUSTOMER",
+        "connectionRuntimeParameter" : true,
+        "objectRuntimeParameter" : true
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "LocalCSVFile (P_LocalCSVConnection)",
+      "uiProperties" : {
+        "cnxtype" : "CSVFile",
+        "connectionParameterized" : "true",
+        "paramName" : "P_LocalCSVConnection",
+        "paramLabel" : "LocalCSVFile",
+        "paramType-mapping" : "Connection",
+        "logcnx" : "P_LocalCSVConnection",
+        "default" : "testy.csv",
+        "objlabel" : "gile",
+        "objectParameterized" : "true",
+        "objectParamName" : "gile",
+        "objectParamType-mapping" : "DataObject",
+        "noCreateTarget" : "true",
+        "supportApplyDDLChanges" : "false",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@5224leEVLeNdeKFY7zBBGE",
+      "connectionName" : "ff_src_conn",
+      "targetObject" : "Oracle_load_src.csv",
+      "targetObjectLabel" : "Oracle_load_src.csv",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "Oracle_load_src.csv",
+      "objectLabel" : "Oracle_load_src.csv",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionParameterName" : "P_LocalCSVConnection",
+        "objectParameterName" : "gile",
+        "connectionRuntimeParameter" : true,
+        "objectRuntimeParameter" : false
+      },
+      "targetSchemaProviderType" : "SELECTED_OBJECT",
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$TargetHP$",
+      "type" : "TARGET",
+      "label" : "LocalCSVFile (P_LocalCSVConnection)",
+      "uiProperties" : {
+        "cnxtype" : "CSVFile",
+        "connectionParameterized" : "true",
+        "paramName" : "P_LocalCSVConnection",
+        "paramLabel" : "LocalCSVFile",
+        "paramType-mapping" : "Connection",
+        "logcnx" : "P_LocalCSVConnection",
+        "objlabel" : "P_tgt_file",
+        "origobjlabel" : "P_tgt_file",
+        "objectParameterized" : "true",
+        "objectParamName" : "P_tgt_file1",
+        "objectParamType-mapping" : "DataObject",
+        "supportApplyDDLChanges" : "true",
+        "originalPath" : "TargetHP"
+      },
+      "targetConnectionId" : "@5224leEVLeNdeKFY7zBBGE",
+      "connectionName" : "ff_src_conn",
+      "targetObject" : "ff_tgt_fully_param.csv",
+      "targetObjectLabel" : "ff_tgt_fully_param.csv",
+      "newFlatFile" : false,
+      "newObject" : true,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "newObjectName" : "ff_tgt_fully_param.csv",
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "ff_tgt_fully_param.csv",
+      "objectLabel" : "ff_tgt_fully_param.csv",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionParameterName" : "P_LocalCSVConnection",
+        "objectParameterName" : "P_tgt_file1",
+        "objectDefaultValue" : "ff_tgt_fully_param.csv",
+        "connectionRuntimeParameter" : true,
+        "objectRuntimeParameter" : true
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    }
+  ],
+  "verbose" : false,
+  "lastRunTime" : 1732602185000,
+  "mappingId" : "@2annGWCMJVQcZ86oaUrfu7",
+  "mappingTemplateName" : "m_fully_param",
+  "sessionPropertiesList" : [
+    {
+      "name" : "Pushdown Optimization",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Context",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Fallback Option",
+      "value" : "Partial PDO"
+    }
+  ],
+  "inOutParameters" : [
+    {
+      "name" : "P_NAMES_1",
+      "datatype" : "STRING",
+      "precision" : "100",
+      "scale" : "0",
+      "retentionPolicy" : "NEVER",
+      "aggregationType" : "MAX"
+    }
+  ],
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : true,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "parameterFileName" : "mct_fully_param.param",
+  "parameterFileDir" : "/home/amulya/parameter",
+  "paramFileType" : "PARAM_FILE_LOCAL",
+  "schemaMode" : "async",
+  "valid" : true,
+  "optimizationPlan" : "NONE",
+  "allowMaxFieldLength" : false,
+  "specialCharacterSupport" : false,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2026-01-07 23:08:35 PST"
+}
